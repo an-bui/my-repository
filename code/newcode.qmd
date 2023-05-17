@@ -1,0 +1,23 @@
+---
+title: "new code"
+author: "your name here"
+execute:
+  message: false
+  warning: false
+format: html
+---
+
+new code here!
+
+```{r libraries}
+library(tidyverse)
+library(lterdatasampler)
+```
+
+new plot here:
+
+```{r}
+ggplot(data = hbr_maples, aes(x = leaf1area)) +
+  geom_histogram(bins = 12)
+```
+
